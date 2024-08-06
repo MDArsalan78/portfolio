@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Arsalan's Portfolio</title>
+    <meta name="description" content="Mohammad Arsalan's portfolio showcasing his skills and projects as a data analyst and web developer.">
+    <meta name="keywords" content="Mohammad Arsalan, portfolio, data analyst, web developer, software engineer, projects">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/72b1118f62.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.jpg" class="logo" alt="Mohammad Arsalan">
+                <div>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/mdarsalan78/" target="_blank">Linkedin</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/MDArsalan78" target="_blank">Github</a>
+                </div>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst / Web Developer</p>
+                <h1>Hi, I'm Mohammad <span>Arsalan</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Arsalan.jpg" alt="Background">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate and motivated fresher software engineer who has completed a degree in Computer Science Engineering. With a solid foundation in Software Engineering principles and a strong desire to learn, I am eager to begin my career in the technology industry. As a fresher software engineer, I am excited to apply my knowledge and skills to real-world projects and eager to continue learning and expanding knowledge in these areas.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Analysis</span><br>Analyzing the Data</li>
+                            <li><span>Web Development</span><br>Web Development using HTML, CSS, Javascript</li>
+                            <li><span>Backend Development</span><br>Backend Development using Java, Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>April, 2023 - June, 2023</span><br>Junior Software Engineer at American India Foundation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>Computer Science Engineering, Galgotias University</li>
+                            <li><span>2017 - 2019</span><br>Senior Secondary Education, CBSE</li>
+                            <li><span>2015 - 2017</span><br>Secondary Education, CBSE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                    <h2>Data Analysis</h2>
+                    <p>I have worked on Data Analysis projects.</p>
+                    <h3>Tools: Tableau</h3>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I have worked on Web Development and can create responsive websites.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-python"></i>
+                    <h2>Backend Languages</h2>
+                    <p>Javascript, Java</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database</h2>
+                    <p>SQL, Excel</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/emotion-based-music-player.jpg" alt="Emotion Based Music Player">
+                    <div class="layer">
+                        <h3>Emotion Based Music Player</h3>
+                        <p>The Emotion Based Music Player is an innovative application that leverages artificial intelligence and machine learning to enhance the user’s music listening experience. By detecting the user’s emotional state through facial recognition or text input, the player dynamically curates and plays music that matches the user’s mood.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/crime-rate-prediction.jpg" alt="Crime Rate Prediction">
+                    <div class="layer">
+                        <h3>Crime Rate Prediction</h3>
+                        <p>The Crime Rate Prediction System is an advanced analytical tool designed to forecast crime rates in various regions using machine learning and statistical analysis. This system aims to assist law enforcement agencies, policymakers, and urban planners in proactively addressing crime by providing accurate predictions and insights.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a> 
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> idrisiarsalan78@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> +918299159738</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mdarsalan78/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/MDArsalan78"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/md_arsalan_78/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.snapchat.com/add/arsalan7896"><i class="fa-brands fa-snapchat"></i></a>
+                    </div>
+                    <a href="Mohammad_Arsalan_Fresher.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
